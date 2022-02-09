@@ -23,7 +23,7 @@ background: url(../img/Shape1.png);
     background-image: url(../img/shapes.png);
     background-position:left ;
     background-repeat: no-repeat;
-    background-size: 45500px;
+    background-size: contain;
 
 }
 .testing8{
