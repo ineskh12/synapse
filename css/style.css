@@ -22,7 +22,7 @@ background-position:top center;
 background-repeat: no-repeat;
 
 
-background-size: auto;
+background-size: contain;
 
 }
 
@@ -470,7 +470,7 @@ object-fit: none;
 }
 
 #videoModal {
-    
+  
     z-index: 99999;
 }
 
@@ -631,4 +631,26 @@ object-fit: none;
     margin-right: 0;
     padding-right: 0;
     border-right: none;
+}
+.modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 110%;
+  
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-radius: 25px;
+    border: 2px solid #fff;
+   
+    outline: 0;
+}
+
+
+.modal-header {
+    border-radius: 25px;
+    border: 2px solid #fff;
+  
+  
 }
